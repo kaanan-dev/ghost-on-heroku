@@ -1,10 +1,10 @@
 {
-  "name": "blog",
+  "name": "ghost-on-heroku",
   "description": "blog",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kaanan-dev/blog.git"
+    "url": "git://github.com/kaanan-dev/ghost-on-heroku.git"
   },
   "bugs": "https://github.com/TryGhost/Ghost/issues",
   "private": true,
