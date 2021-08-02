@@ -74,10 +74,13 @@ function createConfig() {
       transports: ["stdout"]
     },
     mail: {
+      from: process.env.MAILGUN_SMTP_LOGIN,
       transport: 'SMTP',
       options: {
-        service: 'Mailgun',
         host: process.env.MAILGUN_SMTP_SERVER,
+        service: 'Gmail',
+        port: '465',
+        secure: true,
         auth: {
           user: process.env.MAILGUN_SMTP_LOGIN,
           pass: process.env.MAILGUN_SMTP_PASSWORD
